@@ -3,7 +3,7 @@ const siteMetadata = {
   title: 'Nayab Warach',
   author: 'Nayab Warach',
   headerTitle: 'Nayab Warach',
-  description: 'Nayab Warach',
+  description: 'Electrical Engineering at Texas A&M | Aviation Intern at Lochner',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.nayabw.com',
