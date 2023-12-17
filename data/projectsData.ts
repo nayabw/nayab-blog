@@ -1,19 +1,15 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'KANM Student Radio Website',
+    description: `College Station's college station just got a whole new look.`,
+    imgSrc: '/static/images/kanm.png',
+    href: 'https://www.kanm.org',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Bitjockey Radio Automation',
+    description: `Radio Automation and playout software made with college DJs in mind.`,
+    imgSrc: '/static/images/bitjockey.png',
+    href: 'https://bitjockey.kanm.org',
   },
 ]
 
