@@ -9,16 +9,19 @@ const MAX_DISPLAY = 5
 export default function Home({ posts }) {
   return (
     <>
-    <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Howdy, I’m Nayab
-          </h1>
-          <h2 className="prose text-lg text-gray-600 dark:text-gray-400">
-            Welcome to my blog & personal site. I am an Electrical Engineering student at Texas A&M University. My interests include all things radio and RF engineering related as well as the intersection between music and engineering! 
-          </h2>
+      <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+        Howdy, I’m Nayab
+      </h1>
+      <h2 className="prose text-lg text-gray-600 dark:text-gray-400">
+        Welcome to my blog & personal site. I am an Electrical Engineering student at Texas A&M
+        University. My interests include all things radio and RF engineering related as well as the
+        intersection between music and engineering!
+      </h2>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-          Check out my posts, projects, and socials here - and feel free to reach out.          </p>
+            Check out my posts, projects, and socials here - and feel free to reach out.
+          </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
